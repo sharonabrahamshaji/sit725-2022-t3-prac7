@@ -1,14 +1,14 @@
 {
-  "name": "sit725-2022-t3-prac5",
+  "name": "sit725-2022-t3-prac7",
   "version": "1.0.0",
-  "description": "SIT 725 PRACTICAL 5",
+  "description": "SIT 725 PRACTICAL 7",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharonabrahamshaji/sit725-2022-t3-prac5.git"
+    "url": "git+https://github.com/sharonabrahamshaji/sit725-2022-t3-prac7.git"
   },
   "keywords": [
     "Express",
@@ -17,13 +17,16 @@
   "author": "Sharon Abraham",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sharonabrahamshaji/sit725-2022-t3-prac5/issues"
+    "url": "https://github.com/sharonabrahamshaji/sit725-2022-t3-prac7/issues"
   },
-  "homepage": "https://github.com/sharonabrahamshaji/sit725-2022-t3-prac5#readme",
+  "homepage": "https://github.com/sharonabrahamshaji/sit725-2022-t3-prac7#readme",
   "dependencies": {
+    "cf-deployment-tracker-client": "^0.1.4",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongodb": "^4.12.1"
+    "mongodb": "^4.12.1",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
   }
 }

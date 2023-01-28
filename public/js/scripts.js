@@ -1,4 +1,4 @@
- 
+
 const getProjects = () => {
     $.get('/api/projects',(response) => {
         if(response.statusCode==200){
@@ -51,7 +51,11 @@ const addCards = (items) => {
     });
 }
 
-
+// connect to the socket
+let socket = io();
+socket.on('number', (msg) => {
+    console.log('Random number: ' + msg);
+})
 
 $(document).ready(function(){
     $('.materialboxed').materialbox();
@@ -61,3 +65,4 @@ $(document).ready(function(){
     getProjects();
     $('.modal').modal();
   });
+
